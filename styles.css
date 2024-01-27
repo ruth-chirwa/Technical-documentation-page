@@ -1,5 +1,6 @@
 *{
-    background-color: rgb(120, 112, 112);
+    font-family: tahoma;
+    background-color: gray;
     
 }
 @media (min-width: 768px) and (max-width: 1199px){
@@ -8,9 +9,28 @@
     }
 }
 #main-doc{
-   
     position: relative;
     left: 20px;
-    top: 70px;
-    margin: 20px;
- }   
+    top: 40px;
+ } 
+
+#navbar{
+    color: #fff;
+    padding-bottom: 30px;
+}
+a{
+    
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+code{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 80px;
+}
