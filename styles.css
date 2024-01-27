@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(120, 112, 112);
+    
+}
+@media (min-width: 768px) and (max-width: 1199px){
+    *{
+        width: 560px;
+    }
+}
+#main-doc{
+   
+    position: relative;
+    left: 20px;
+    top: 70px;
+    margin: 20px;
+ }   
