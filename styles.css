@@ -12,25 +12,37 @@
     position: relative;
     left: 20px;
     top: 40px;
+    flex-wrap: nowrap;
  } 
 
 #navbar{
     color: #fff;
-    padding-bottom: 30px;
 }
 a{
-    
+    margin: 10px;
     color: #fff;
     text-decoration: none;
     
 
 }
 a:hover{
-    color: blueviolet;
+    color: black;
     cursor: pointer;
 }
 code{
     background-color: #fff;
     box-sizing: border-box;
     width: 80px;
+}
+section li{
+    margin: 15px 0px 0px 20px;
+}
+
+header{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+nav header{
+    padding-bottom: 30px;
 }
